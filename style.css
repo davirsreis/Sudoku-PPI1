@@ -1,0 +1,144 @@
+input{
+
+    text-align: center;
+
+    width: 30px;
+
+    height: 30px;
+    
+}
+ 
+#grade{
+
+    width: auto;
+
+    margin: auto;
+
+    background-color: #191970;
+
+}
+
+#dificuldade{
+
+    color: #FFF;
+
+    text-align: center;
+    
+    font-size: 18px;
+
+}
+
+#endGame{
+
+    text-align: center;
+
+    padding-top: 10px;
+}
+
+.invalida{
+
+background-color: red;
+
+}
+
+h1{
+
+    text-align: center;
+
+    color: #191970;
+
+    font-size: 70px;
+
+}
+
+p{
+    
+    font-size: 20px;
+    
+    padding-left: 5%;
+
+
+}
+
+ul{
+        
+    font-size: 20px;
+    
+}
+
+#destaque1{
+
+    font-weight: bold;
+
+    color: #FF0000;
+
+}
+
+#destaque2{
+
+    font-weight: bold;
+
+    color: #017901;
+
+}
+
+#regras{
+
+    border-width: medium;
+
+    border-style: solid;
+
+    border-color: #191970;
+
+    background-color: #5353ec23;
+
+    display: none;
+
+    padding-left: 5%;
+
+}
+
+#info{
+
+    border-width: medium;
+
+    border-style: solid;
+
+    border-color: #191970;
+
+    background-color: #5353ec23;
+
+    display: none;
+
+    padding-left: 5%;
+
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-left: 5%;
+    
+}
+
+footer {
+
+    text-align: center;
+
+    background-color: #191970;
+
+    color: white;
+
+    position:absolute;
+
+    bottom:0;
+
+    width:99%;
+
+}
+
+.destaqueFooter{
+    
+    font-weight: bold;  
+
+}
