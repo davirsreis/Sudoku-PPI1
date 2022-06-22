@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="sudoku.png" >
+  <img src="./img/sudoku.png" >
 </div>
 
 ## Sobre
