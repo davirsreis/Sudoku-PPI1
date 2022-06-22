@@ -1,6 +1,6 @@
 
 <div align="center">
-  <a href="https://sudoku-game-davirsreis.vercel.app/"><img src="sudoku.png" ></a>
+  <a href="https://sudoku-game-davirsreis.vercel.app/" target="_blank"><img src="sudoku.png" ></a>
 </div>
 
 ## Sobre
