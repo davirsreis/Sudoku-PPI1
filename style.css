@@ -7,12 +7,6 @@
     font-weight: bold;
 }
 
-/*
-body {
-    background-color: #E0E0E0;
-}
-*/
-
 header{
     text-align: center;
     width: 500px;
@@ -42,8 +36,8 @@ input:hover {
     border: 1px #09A7E0 solid;
     background-color: rgb(241, 241, 241);
     height: 500px;
-    width: 500px;
-    max-width: 500px;
+    width: 700px;
+    max-width: 700px;
     margin: auto;
     padding: 50px;
     font-family: 'Roboto Mono', monospace;
@@ -108,11 +102,12 @@ input:hover {
 
 .sec-sobre {
     font-family: 'Roboto Mono', monospace;
-    width: 600px;
-    max-width: 600px;
+    width: 800px;
+    max-width: 800px;
     height: 100%;
     margin: auto;
     padding: 20px 0;
+    padding-bottom: 100px;
 }
 .sec-sobre h2 {
     font-size: 20px;
