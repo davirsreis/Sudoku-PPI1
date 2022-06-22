@@ -100,16 +100,17 @@ input:hover {
 
 .sec-sobre {
     font-family: 'Roboto Mono', monospace;
-    margin: 100px;
+    width: 600px;
+    margin: auto;
 }
 .sec-sobre h2 {
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px 0;
 }
 
 .sec-sobre p {
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 ul {
@@ -119,7 +120,7 @@ ul {
 
 li {
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 p { 
@@ -141,6 +142,7 @@ footer {
 
 footer p {
     padding-top: 13px;
+    font-size: 18px;
 }
 
 footer a {
