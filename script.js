@@ -1,12 +1,3 @@
-function hide() {
-  var x = document.getElementById("regras");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-
 function escolherDificuldade() {
   var x = document.getElementById("dificuldade");
   if (x.style.display === "none") {
@@ -18,6 +9,7 @@ function escolherDificuldade() {
 
 function hideEndGame() {
   var x = document.getElementById("endGame");
+  var z = document.getElementById("dificuldade")
   if (x.style.display === "none") {
     x.style.display = "block";
     
@@ -26,18 +18,7 @@ function hideEndGame() {
     let grade = $('<table id="grade"></table>');
     $('#jogo').append(grade);//coloca uma nova tabela
     x.style.display = "none";
-    
-  }
-}
-
-function info_autores() {
-  var x = document.getElementById("info");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    
-  } else {
-    x.style.display = "none";
-    
+    z.style.display = "block"
   }
 }
 
@@ -129,7 +110,7 @@ function start() {
                   $(this).removeClass('invalida');
                 }
                 else {
-                  alert('Jogada Inválida!')
+                  
                   $(this).addClass('invalida');
 
                 }
@@ -140,7 +121,7 @@ function start() {
               }
 
               if (FimdeJogo(sudoku, col)) {
-                alert('Fim de jogo')
+                alert('Fim de jogo, Parabéns!')
               }
             });
         }

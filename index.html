@@ -7,39 +7,43 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
-    <div>
-        <h1>Sudoku</h1>
-        <p>Sudoku é um jogo de raciocínio e lógica, onde seu objetivo se consiste em completar todos os quadrados utilizando números de 1 a 9. Consulte as <span id="destaque1" onclick="hide()">regras</span> e <span id="destaque2" onclick="escolherDificuldade()">comece</span> o jogo!</p>
-    </div>
-    <div id="regras" style="display: none;">
-        <ul id="listaRegras">
-        <li> Cada linha deve conter os números de 1 a 9, sem repetições</li>
-        <li> Os números de 1 a 9 apenas podem estar presentes uma vez por coluna</li>
-        <li> Cada dígito apenas pode estar presente uma vez por grupo (3x3)</li>
-        <li> O valor da soma de cada linha, coluna e grupo é de 45</li>
-        </ul>
-    </div>
-    <div id="dificuldade" style="display: none;">
-    <p id="pDificuldade">Escolha a dificuldade que deseja jogar:</p>
-    <button class="buttonDificuldade" onclick="dificuldade = 'facil';start()">Fácil</button>
-    <button class="buttonDificuldade" onclick="dificuldade = 'medio';start()">Médio</button>
-    <button class="buttonDificuldade" onclick="dificuldade = 'dificil';start()">Difícil</button>
-    </div>
 
-    <div id="jogo">
-        <table id="grade"></table>
-    </div>
+    <h1>Sudoku</h1>
+    <section class="sec-game">
+        <div id="dificuldade" style="display: block;">
+            <p id="pDificuldade">Escolha a dificuldade que deseja jogar:</p>
+            <button class="buttonDificuldade" onclick="dificuldade = 'facil';start()">Fácil</button>
+            <button class="buttonDificuldade" onclick="dificuldade = 'medio';start()">Médio</button>
+            <button class="buttonDificuldade" onclick="dificuldade = 'dificil';start()">Difícil</button>
+        </div>
+    
+        <div id="jogo">
+            <table id="grade"></table>
+        </div>
+    
+        <div id="endGame" style="display: none;">
+            <button class="buttonFinalizar" onclick="hideEndGame()">Finalizar jogo</button>
+        </div>
+    </section>
 
-    <div id="endGame" style="display: none;">
-        <button id="finaliza" onclick="hideEndGame()">Finalizar jogo</button>
-    </div>
+    <section class="sec-sobre">
+        <div class="sobre">
+            <h2>Sobre o Sudoku</h2>
+            <p>É um jogo de quebra cabeça japonês muito famoso, baseado no posicionamento lógico dos números. Não é preciso cálculos, apenas concentração e <strong>muita</strong> paciência.</p>
+        </div>
+        <div class="como-jogar">
+            <h2>Como jogar</h2>
+            <p>O objetivo do jogo é completar todos os quadrados utilizando números de 1 a 9. Porém para a jogada jogada ser válida, é preciso obedecer algumas regras:</p>
+            <ul class="lista-regras">
+            <li> Cada linha deve conter os números de 1 a 9, sem repetições</li>
+            <li> Cada coluna deve conter os números de 1 a 9, sem repetições</li>
+            <li> Cada número pode estar presente apenas uma vez por grupo (3x3)</li>
+            <li> O valor da soma de cada linha, coluna ou grupo completo é de 45</li>
+            </ul>
+        </div>
+    </section>
 
-    <h4 onclick="info_autores()">Sobre os autores:</h4>
-    <div id="info" style="display: none;">
-        <p>Site desenvolvido por Davi Soares e Davi Resende</p>
-        <p>Link do repositório: <a href="https://github.com/Sdavi3489/Projeto_Sudoku_PPI1.git">https://github.com/Sdavi3489/Projeto_Sudoku_PPI1.git</a></p>
-    </div>
-
+    <footer><p>Desenvolvido por <a href="https://github.com/davirsreis" target="_blank">Davi Resende</a> e <a href="https://github.com/Sdavi3489" target="_blank">Davi Soares</a></p></footer>
 
 </body>
 </html>
